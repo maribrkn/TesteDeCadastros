@@ -1,4 +1,4 @@
-package dev.java10x.TesteDeCadastros;
+package dev.java10x.TesteDeCadastros.Ninjas.Controller;
 
 
 import org.springframework.web.bind.annotation.*;
