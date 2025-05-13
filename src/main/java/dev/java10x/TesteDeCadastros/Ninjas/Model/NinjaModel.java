@@ -20,10 +20,11 @@ public class NinjaModel {
     Long id;
     private int idade;
     private String nome;
+    @Column(unique = true)
     private String email;
 
     @ManyToOne // Um ninja só pode ter uma missão
-    @JoinColumn(name = "missoes_id") // Foreign key - chave estrangeiragit
+    @JoinColumn(name = "missoes_id") // Foreign key - chave estrangeira
     private MissoesModel missoes;
 }
 
